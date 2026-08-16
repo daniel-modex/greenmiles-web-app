@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "skills": {
+    "angular-signals-patterns": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/angular-signals-patterns/SKILL.md",
+      "computedHash": "951a2a5c7c0295cb1e747e2150ea41cc782a6c3ac86b0af2006d7e21f89b4b19"
+    },
+    "animation-designer": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/animation-designer/SKILL.md",
+      "computedHash": "32bd00f01b40a5a632372f35469c6630ec123cd355706ffeaf76892726d544a7"
+    },
+    "animation-principles": {
+      "source": "owl-listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "interaction-design/skills/animation-principles/SKILL.md",
+      "computedHash": "b5f47370cf3648e5bf958536e5637525b1d324c1bab54efc2fc7f1d9c28029f3"
+    },
+    "color-contrast-designer": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/color-contrast-designer/SKILL.md",
+      "computedHash": "0e51d4c8b1e34176ffea09ed953566f904589189cbfcbaa8c98aad53514cd9f0"
+    },
+    "color-system-design": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/color-system-design/SKILL.md",
+      "computedHash": "f1e53160a5358782b387105bbdc216ed8a19a736b86bfa65792b47b1ece1ce12"
+    },
+    "comparison-table-design": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/comparison-table-design/SKILL.md",
+      "computedHash": "495e925b5e19a3d4e0cccfeb3fb6cdb07741b4498844091955ac2c268a3feec1"
+    },
+    "creative-director": {
+      "source": "ali-heydari-1989/opendesignwithlogin",
+      "sourceType": "github",
+      "skillPath": "skills/creative-director/SKILL.md",
+      "computedHash": "9d0a2e1caee0db7ae6fdf931dc805d556892fb13739b0b5fc1ad4187b38dd141"
+    },
+    "critique-brand-consistency": {
+      "source": "owl-listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "visual-critique/skills/critique-brand-consistency/SKILL.md",
+      "computedHash": "fd501bd982187dadf39b6c0fc979449639ed2cc7744fa675aa552e46ef98040d"
+    },
+    "css-architecture": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/css-architecture/SKILL.md",
+      "computedHash": "741b1049fb6bb4d9cdb3bb78e26b75b15e4662bb78e7f6dba92df57c373f7bf8"
+    },
+    "css-master": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/css-master/SKILL.md",
+      "computedHash": "839957f455a79f09b4a5a3c4d0ae44b13ce9b583150ecf8702b391095f87d2af"
+    },
+    "dark-ui-fundamentals": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/dark-ui-fundamentals/SKILL.md",
+      "computedHash": "4fbd5165438c5939701905336c5a9a0e37334e477afef5a1a3cb9c010a7c30b3"
+    },
+    "dashboard-density-principles": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/dashboard-density-principles/SKILL.md",
+      "computedHash": "24a3615824e1a28d21638d74adcf53870636657eeb18fedf1b29257f10ce2aa3"
+    },
+    "design-handoff-patterns": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/design-handoff-patterns/SKILL.md",
+      "computedHash": "88d1daa2925110434fe353f78d24a18fd41c8bd3d3e4c487db4776ff9e986d0d"
+    },
+    "design-research-integration": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/design-research-integration/SKILL.md",
+      "computedHash": "fbf864bbfbf91d1c5e1b75b5884bb8b4bd0fe4c07cd42c56e7e7c205e2b82b8e"
+    },
+    "design-research-with-claude": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/design-research-with-claude/SKILL.md",
+      "computedHash": "03a67d50307e93360a076ad9cf527917377b14c47d0b103f49836342880748e1"
+    },
+    "enhance-prompt": {
+      "source": "ali-heydari-1989/opendesignwithlogin",
+      "sourceType": "github",
+      "skillPath": "skills/enhance-prompt/SKILL.md",
+      "computedHash": "7fe1b166956398c470fc02bce36d30a275017c65b8d8f89802ce780aabe3ddd6"
+    },
+    "feature-section-patterns": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/feature-section-patterns/SKILL.md",
+      "computedHash": "226d6853a44657421a7074b0885aaf35407740c3b81d1e245881577d4bae87c6"
+    },
+    "filter-and-faceting-ui": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/filter-and-faceting-ui/SKILL.md",
+      "computedHash": "be28664b60a5f2930129da76a835d662cf1472f53e0e1e6a58197a6404c51d20"
+    },
+    "footer-design-systems": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/footer-design-systems/SKILL.md",
+      "computedHash": "fa974c55729e745ff63c0163ccc62d5842b0c421dd76cf834218cacf3cf8d835"
+    },
+    "form-design-conversion": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/form-design-conversion/SKILL.md",
+      "computedHash": "b4974bf9fe14b8ec493d96d66d15fcf25254d0c4494127cac7a42e80d8990ed4"
+    },
+    "frame-liquid-bg-hero": {
+      "source": "ali-heydari-1989/opendesignwithlogin",
+      "sourceType": "github",
+      "skillPath": "skills/frame-liquid-bg-hero/SKILL.md",
+      "computedHash": "e5a7461447b1a02e5f5369b97f7b5e8261a10477bf98cbae6856dc2bb1622475"
+    },
+    "frontend-skill": {
+      "source": "ali-heydari-1989/opendesignwithlogin",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-skill/SKILL.md",
+      "computedHash": "8ab39f3d248fc0eb5bd3850b0016145cf2a7bbc71c1ee958db9505d8a509b701"
+    },
+    "frontend-slides": {
+      "source": "ali-heydari-1989/opendesignwithlogin",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-slides/SKILL.md",
+      "computedHash": "1224b35c70252947db33b400b5906332dbfba677f3e2faf4de00b77f78b893b1"
+    },
+    "hero-section-anatomy": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/hero-section-anatomy/SKILL.md",
+      "computedHash": "45589a944f28e78c18897493fe3b8591658bc1e7fdea5a42916dc7daf58d1499"
+    },
+    "hover-state-systems": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/hover-state-systems/SKILL.md",
+      "computedHash": "05ce0b9c1b305fa1912e01e2e616409d783564676b0c93e91e0bf39f14b7311a"
+    },
+    "icon-system-design": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/icon-system-design/SKILL.md",
+      "computedHash": "62a0697991641fde17496b026bda0d3849513a8755b8875f522c60f1e82f8861"
+    },
+    "illustration-system-design": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/illustration-system-design/SKILL.md",
+      "computedHash": "d12787165164fcf3b2302e2e71e6333bf1d76aa0aad5e2bb85f20152636b2f9f"
+    },
+    "inclusive-content-writer": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/inclusive-content-writer/SKILL.md",
+      "computedHash": "6aa6988b50436a9f5c0a02c2f13dd3994d00117e1e9f75fbaccf406d9d8a138d"
+    },
+    "inclusive-design-principles": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/inclusive-design-principles/SKILL.md",
+      "computedHash": "7a92556c59b76ae92b82b31592d6a854a0390697d18a31a2ce20779d60e66366"
+    },
+    "internationalization-ui": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/internationalization-ui/SKILL.md",
+      "computedHash": "059f4d1cb1e299793768f100034ba5bd2b1f59d9ba198e297ec0a71fcb60447e"
+    },
+    "logo-design-principles": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/logo-design-principles/SKILL.md",
+      "computedHash": "9c9e47c8d182c6957fac4bd4346e8f97809925c8d94e1ca868fa0c6d4ce8b992"
+    },
+    "micro-animation-budget": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/micro-animation-budget/SKILL.md",
+      "computedHash": "c43a8051cfa470d39a464f53e826678f627e1d4bddc0986ad8f7f43822c931a1"
+    },
+    "micro-frontend-architect": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/micro-frontend-architect/SKILL.md",
+      "computedHash": "0881c6b51e6a429b980690c95e5c1df7e24829f381ac71f2cabedf135e87df31"
+    },
+    "micro-interaction-spec": {
+      "source": "owl-listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "interaction-design/skills/micro-interaction-spec/SKILL.md",
+      "computedHash": "5e4c2323eaccd677a832bbffe8c5d6ed84475f886207ecba4d3c83158c2efeea"
+    },
+    "mobile-nav-patterns": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/mobile-nav-patterns/SKILL.md",
+      "computedHash": "3306c55c70a5d37a511eb5f4f236286cb3f104b60aa0aa252de7aec7b0f5c161"
+    },
+    "modern-saas-design-principles": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/modern-saas-design-principles/SKILL.md",
+      "computedHash": "042bbc3654b43f96d161470f82b7b81d835d59c282c58cd1931ec2dec32b21eb"
+    },
+    "motion-system": {
+      "source": "owl-listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "design-systems/skills/motion-system/SKILL.md",
+      "computedHash": "3afdb7c3ab6f154b3d2e02dc62d0cb2493fe9db0c2f087b586845a21143b9988"
+    },
+    "navigation-design-patterns": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/navigation-design-patterns/SKILL.md",
+      "computedHash": "6735a7c3cf22eeea259dd229bde073d866b37638823dec4a580cbd38939c8c75"
+    },
+    "north-star-vision": {
+      "source": "owl-listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "ux-strategy/skills/north-star-vision/SKILL.md",
+      "computedHash": "b5f2d6cafefb189c534488e6a46155a61cd26ce61b2f0f39cb05822ea434ebbe"
+    },
+    "pagination-and-infinite-scroll": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/pagination-and-infinite-scroll/SKILL.md",
+      "computedHash": "41806aea61d675a7e8c3e73e4e4e26c0f787e5faad6bb5acd38ba066250bb92a"
+    },
+    "remotion": {
+      "source": "ali-heydari-1989/opendesignwithlogin",
+      "sourceType": "github",
+      "skillPath": "skills/remotion/SKILL.md",
+      "computedHash": "6000cf89875e0c780142af6241411ce4130e91a04f305db65cbce01d5b54fd0d"
+    },
+    "scroll-driven-animations": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/scroll-driven-animations/SKILL.md",
+      "computedHash": "50979b5deb9116644d45bc75e51d70d240ace11cde7fe8c9ffaa662456275ef3"
+    },
+    "search-ui-patterns": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/search-ui-patterns/SKILL.md",
+      "computedHash": "1bb8886e814e28561a3595795330424a4eff35ba5ca0afc8b5f238eb0875c8bd"
+    },
+    "seo-friendly-design": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/seo-friendly-design/SKILL.md",
+      "computedHash": "679a1752f10cc077cc2711f58be6585285c04db371649aee2054023531b3fe93"
+    },
+    "skeleton-loaders": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/skeleton-loaders/SKILL.md",
+      "computedHash": "8c216f8603e17410ce3747b044bf0245e352b8d07c8e169e76c2a6d9a3d218ce"
+    },
+    "spacing-and-rhythm": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/spacing-and-rhythm/SKILL.md",
+      "computedHash": "06c5cd485235bcb7082b6ddbe380f90ba08ca689e4d890258ad330f2660c476e"
+    },
+    "tailwind-designer": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/tailwind-designer/SKILL.md",
+      "computedHash": "a0ece395511b5a8a886e5b0c80ad3ca7af7e4be570997b4ed5d8af787df1d270"
+    },
+    "transition-and-easing-systems": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/transition-and-easing-systems/SKILL.md",
+      "computedHash": "143f2fdc13c89c7ddbef4013906c16da6e250e87b36628bda710b24295cf02aa"
+    },
+    "typography-system-design": {
+      "source": "x3allamerican/design-skills-fleetsafety",
+      "sourceType": "github",
+      "skillPath": "skills/typography-system-design/SKILL.md",
+      "computedHash": "5a060fe52a3b77da24de0dc8c9c00b439a0a27aa0e98a7806ecb213c52029632"
+    },
+    "web-animation-master": {
+      "source": "FerroxLabs/wayland",
+      "sourceType": "github",
+      "skillPath": "src/process/resources/skills-library/bodies/skills/web-development/web-animation-master/SKILL.md",
+      "computedHash": "56cac289dbeef58d599814c7ed5396cff74055ef92c832cc3b7081141702ba21"
+    }
+  }
+}
