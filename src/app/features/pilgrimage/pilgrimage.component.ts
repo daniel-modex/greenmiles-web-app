@@ -24,8 +24,8 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
             </app-badge>
           </div>
 
-          <h1 class="text-3xl sm:text-5xl font-black text-[#0F1E13] tracking-tight">
-            Sabarimala & Temple <span class="text-gradient-gm">Pilgrimage Circuits</span>
+          <h1 class="text-3xl sm:text-5xl font-bold font-serif text-[#0F1E13] tracking-tight">
+            Sabarimala & Temple <span class="text-gradient-gm italic font-normal">Pilgrimage Circuits</span>
           </h1>
 
           <p class="text-sm sm:text-base text-slate-600 max-w-3xl leading-relaxed">

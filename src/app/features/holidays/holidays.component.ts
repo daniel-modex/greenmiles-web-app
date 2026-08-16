@@ -27,8 +27,8 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
             </app-badge>
           </div>
 
-          <h1 class="text-3xl sm:text-5xl font-black text-[#0F1E13] tracking-tight">
-            Curated Holiday Caravans & <span class="text-gradient-gm">Retreats</span>
+          <h1 class="text-3xl sm:text-5xl font-bold font-serif text-[#0F1E13] tracking-tight">
+            Curated Holiday Caravans & <span class="text-gradient-gm italic font-normal">Retreats</span>
           </h1>
 
           <p class="text-sm sm:text-base text-slate-600 max-w-3xl leading-relaxed">
@@ -76,36 +76,76 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
           </div>
         </div>
 
-        <!-- Package Grid -->
+        <!-- Asymmetrical Bento Package Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          @for (pkg of filteredPackages(); track pkg.id) {
-            <div class="glass-card rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col justify-between border border-[#6EBF49]/20">
-              <div class="relative h-56 w-full">
-                <img [src]="pkg.image" [alt]="pkg.title" class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
-                <span class="absolute top-4 left-4 bg-white/90 text-[#0F1E13] px-3 py-1 rounded-full text-xs font-bold shadow">
-                  {{ pkg.tag }}
-                </span>
-                <span class="absolute bottom-4 left-4 text-xs font-semibold text-[#A6D98F]">
-                  📍 {{ pkg.location }}
-                </span>
-              </div>
+          @for (pkg of filteredPackages(); track pkg.id; let idx = $index) {
+            <div
+              [class.lg:col-span-2]="idx === 0"
+              class="glass-card rounded-[2rem] overflow-hidden hover:shadow-2xl transition-all duration-500 flex flex-col justify-between group border border-[#6EBF49]/30"
+            >
+              <!-- Card Image Banner with Ken Burns Zoom -->
+              <div [class.h-72]="idx === 0" [class.h-60]="idx !== 0" class="relative w-full overflow-hidden bg-slate-900">
+                <img
+                  [src]="pkg.image"
+                  [alt]="pkg.title"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="lazy"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
 
-              <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-                <div>
-                  <h3 class="text-xl font-bold text-[#0F1E13]">{{ pkg.title }}</h3>
-                  <p class="text-xs text-slate-500 mt-1">⏱️ {{ pkg.duration }} • ★ {{ pkg.rating }} ({{ pkg.reviewsCount }} reviews)</p>
-                  <p class="text-xs text-slate-600 mt-3 line-clamp-2">{{ pkg.description }}</p>
+                <div class="absolute top-4 left-4 flex items-center gap-2 z-10">
+                  <app-badge variant="mint" size="sm" class="shadow-sm">
+                    {{ pkg.tag }}
+                  </app-badge>
+                  @if (idx === 0) {
+                    <span class="bg-amber-400 text-[#0F1E13] text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                      🔥 Most Popular Circuit
+                    </span>
+                  }
                 </div>
 
-                <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
-                  <div>
-                    <span class="text-[10px] text-slate-400 block uppercase">Starting Fare</span>
-                    <span class="text-lg font-black text-[#0F1E13]">₹{{ pkg.priceStarting.toLocaleString('en-IN') }}</span>
+                <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+                  <span class="text-xs font-semibold text-[#A6D98F] uppercase tracking-wider block mb-0.5">
+                    📍 {{ pkg.location }}
+                  </span>
+                  <h3 [class.text-2xl]="idx === 0" [class.text-xl]="idx !== 0" class="font-bold font-serif text-white leading-tight">
+                    {{ pkg.title }}
+                  </h3>
+                </div>
+              </div>
+
+              <!-- Body Details -->
+              <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                <div class="space-y-2">
+                  <div class="flex items-center justify-between text-xs font-semibold text-slate-500">
+                    <span class="flex items-center gap-1.5">
+                      ⏱️ {{ pkg.duration }}
+                    </span>
+                    <span class="flex items-center gap-1 text-amber-500 font-bold">
+                      ★ {{ pkg.rating }} ({{ pkg.reviewsCount }} reviews)
+                    </span>
                   </div>
 
-                  <app-button variant="primary" size="sm" (btnClick)="onReserve(pkg)">
-                    Book Caravan
+                  <p class="text-xs sm:text-sm text-slate-600 line-clamp-2 leading-relaxed">
+                    {{ pkg.description }}
+                  </p>
+                </div>
+
+                <div class="pt-4 border-t border-slate-100 flex items-center justify-between gap-3 mt-auto">
+                  <div>
+                    <span class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold block">Starts from</span>
+                    <span class="text-xl font-extrabold text-[#0F1E13]">
+                      ₹{{ pkg.priceStarting.toLocaleString('en-IN') }}
+                      <span class="text-xs font-normal text-slate-500">/ person</span>
+                    </span>
+                  </div>
+
+                  <app-button
+                    variant="primary"
+                    size="sm"
+                    (btnClick)="onReserve(pkg)"
+                  >
+                    Reserve Caravan
                   </app-button>
                 </div>
               </div>

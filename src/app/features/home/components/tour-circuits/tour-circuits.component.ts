@@ -5,22 +5,22 @@ import { ButtonComponent } from '../../../../shared/ui/button/button.component';
 
 @Component({
   selector: 'app-tour-circuits',
-  imports: [BadgeComponent, ButtonComponent],
+  imports: [ButtonComponent],
   template: `
     <section class="py-20 bg-white relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <app-badge variant="foliage" size="sm">
-            🗺️ Operational Circuit Scope
-          </app-badge>
+        <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+          <span class="text-[11px] font-bold tracking-[0.3em] uppercase text-[#6EBF49] bg-[#6EBF49]/10 px-3.5 py-1.5 rounded-full border border-[#6EBF49]/30 inline-block">
+            05. BESPOKE CHARTER & LOGISTICS
+          </span>
 
-          <h2 class="text-3xl sm:text-5xl font-black text-[#0F1E13] tracking-tight">
-            South India Tour Circuits & <span class="text-gradient-gm">Specialist Logistics</span>
+          <h2 class="text-3xl sm:text-5xl font-normal text-[#09140E] tracking-tight font-serif">
+            Tailored Services for <span class="text-gradient-gm italic">Every Destination</span>
           </h2>
 
-          <p class="text-sm sm:text-base text-slate-600">
-            Tailored transportation services for pilgrimage Yatras, corporate conventions, school industrial tours, and eco-luxury family retreats.
+          <p class="text-sm sm:text-base text-slate-600 font-normal max-w-2xl mx-auto">
+            Tailored transportation services for sacred pilgrimage Yatras, corporate conventions, school industrial tours, and eco-luxury family retreats.
           </p>
         </div>
 

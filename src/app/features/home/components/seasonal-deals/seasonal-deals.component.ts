@@ -20,11 +20,11 @@ import { ButtonComponent } from '../../../../shared/ui/button/button.component';
               </app-badge>
             </div>
             
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-[#0F1E13] tracking-tight">
-              Exclusive Seasonal Deals & <span class="text-gradient-gm">Curated Caravans</span>
+            <h2 class="text-3xl sm:text-5xl font-bold text-[#0F1E13] tracking-tight font-serif">
+              Exclusive Seasonal Deals & <span class="text-gradient-gm italic">Curated Caravans</span>
             </h2>
 
-            <p class="text-sm sm:text-base text-slate-600">
+            <p class="text-sm sm:text-base text-slate-600 font-normal">
               Save up to 15% on Sabarimala devotional circuits, hill-station caravans, and corporate offsite transfers.
             </p>
           </div>

@@ -8,13 +8,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-scroll-bus-showcase',
-  imports: [BadgeComponent],
+  imports: [],
   template: `
-    <!-- Outer Wrapper providing 300vh scroll height for GSAP Pinned Trigger -->
-    <div #pinnedContainer class="relative w-full h-[300vh]">
+    <!-- Outer Wrapper providing 350vh scroll height for GSAP Pinned Trigger -->
+    <div #pinnedContainer class="relative w-full h-[350vh]">
       
       <!-- Pinned Viewport Container -->
-      <div #viewportContainer class="sticky top-0 h-screen w-full bg-[#0F1E13] text-white overflow-hidden flex flex-col justify-between py-10 px-4 sm:px-8">
+      <div #viewportContainer class="sticky top-0 h-screen w-full bg-[#09140E] text-white overflow-hidden flex flex-col justify-between py-10 px-4 sm:px-8">
         
         <!-- Background Neon Highway Glow -->
         <div class="absolute inset-0 bg-radial from-[#6EBF49]/15 via-transparent to-transparent pointer-events-none"></div>
@@ -22,16 +22,15 @@ gsap.registerPlugin(ScrollTrigger);
         <!-- Header Tag & Progress Indicator -->
         <div class="relative z-20 max-w-7xl mx-auto w-full text-center space-y-2 pt-4">
           <div class="inline-flex items-center gap-2">
-            <app-badge variant="dark" size="sm">
-              <span class="w-2 h-2 rounded-full bg-[#6EBF49] animate-pulse"></span>
-              Scroll-Driven Flagship Cinematic
-            </app-badge>
+            <span class="text-[11px] font-bold tracking-[0.3em] uppercase text-[#6EBF49] bg-[#6EBF49]/10 px-3.5 py-1.5 rounded-full border border-[#6EBF49]/30">
+              03. FLAGSHIP SCROLL-DRIVEN CINEMATIC
+            </span>
           </div>
 
-          <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight">
-            Inside Greenmiles <span class="text-[#6EBF49]">Flagship Fleet</span>
+          <h2 class="text-3xl sm:text-5xl lg:text-6xl font-normal text-white tracking-tight font-serif">
+            Inside Greenmiles <span class="text-[#6EBF49] italic">Flagship Fleet</span>
           </h2>
-          <p class="text-xs sm:text-base text-slate-300 max-w-xl mx-auto">
+          <p class="text-xs sm:text-base text-slate-300 max-w-xl mx-auto font-normal">
             Scroll down to explore engineered air-suspension comfort, radar safety features, and festive circuit offers.
           </p>
         </div>

@@ -23,7 +23,7 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
           <div class="space-y-6">
             <div class="glass-card rounded-3xl p-8 border border-[#049DD9]/30 space-y-4">
               <app-badge variant="blue" size="sm">📍 Branch & Hub Locations</app-badge>
-              <h1 class="text-3xl font-black text-[#0F1E13]">Get in Touch with Greenmiles</h1>
+              <h1 class="text-3xl font-bold font-serif text-[#0F1E13]">Get in Touch with Greenmiles</h1>
               <p class="text-sm text-slate-600">Our dispatch team is available 24/7 for instant trip quotes and emergency breakdown support.</p>
             </div>
 

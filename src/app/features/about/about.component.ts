@@ -22,8 +22,8 @@ import { BadgeComponent } from '../../shared/ui/badge/badge.component';
             </app-badge>
           </div>
 
-          <h1 class="text-3xl sm:text-5xl font-black text-[#0F1E13] tracking-tight">
-            South India’s Standard for <span class="text-gradient-gm">Eco-Luxury Travel</span>
+          <h1 class="text-3xl sm:text-5xl font-bold font-serif text-[#0F1E13] tracking-tight">
+            South India’s Standard for <span class="text-gradient-gm italic font-normal">Eco-Luxury Travel</span>
           </h1>
 
           <p class="text-sm sm:text-base text-slate-600 max-w-3xl leading-relaxed">

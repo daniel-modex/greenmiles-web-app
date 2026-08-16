@@ -1,4 +1,4 @@
-import { Component, inject, signal, HostListener } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BookingService, BookingFormData, TripType } from '../../../core/services/booking.service';
 import { ButtonComponent } from '../../ui/button/button.component';
@@ -7,6 +7,9 @@ import { BadgeComponent } from '../../ui/badge/badge.component';
 @Component({
   selector: 'app-booking-modal',
   imports: [FormsModule, ButtonComponent, BadgeComponent],
+  host: {
+    '(window:keydown.escape)': 'handleEscape()',
+  },
   template: `
     @if (bookingService.isModalOpen()) {
       <!-- Backdrop -->
@@ -273,7 +276,6 @@ export class BookingModalComponent {
     specialRequests: '',
   });
 
-  @HostListener('window:keydown.escape')
   public handleEscape(): void {
     if (this.bookingService.isModalOpen()) {
       this.bookingService.closeModal();

@@ -43,7 +43,7 @@ import { ButtonComponent } from '../../ui/button/button.component';
           <span class="text-xs uppercase font-bold tracking-widest text-[#A6D98F] block mb-0.5">
             {{ vehicle().categoryLabel }}
           </span>
-          <h3 class="text-xl font-extrabold text-white leading-tight">
+          <h3 class="text-xl font-bold font-serif text-white leading-tight">
             {{ vehicle().name }}
           </h3>
         </div>

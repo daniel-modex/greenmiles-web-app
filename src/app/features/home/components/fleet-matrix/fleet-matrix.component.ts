@@ -5,25 +5,25 @@ import { BadgeComponent } from '../../../../shared/ui/badge/badge.component';
 
 @Component({
   selector: 'app-fleet-matrix',
-  imports: [VehicleCardComponent, BadgeComponent],
+  imports: [VehicleCardComponent],
   template: `
     <section class="py-20 bg-[#F2F2F2] relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <!-- Header -->
-        <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+        <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
           <div class="inline-flex items-center gap-2">
-            <app-badge variant="blue" size="sm">
-              🚌 Fleet Specifications & Standards
-            </app-badge>
+            <span class="text-[11px] font-bold tracking-[0.3em] uppercase text-[#6EBF49] bg-[#6EBF49]/10 px-3.5 py-1.5 rounded-full border border-[#6EBF49]/30">
+              04. VIP FLEET & VEHICLE CONCIERGE
+            </span>
           </div>
 
-          <h2 class="text-3xl sm:text-5xl font-black text-[#0F1E13] tracking-tight">
-            Explore the <span class="text-gradient-gm">Greenmiles Fleet Matrix</span>
+          <h2 class="text-3xl sm:text-5xl font-normal text-[#09140E] tracking-tight font-serif">
+            Engineered Comfort & <span class="text-gradient-gm italic">Studio-Grade Fleet</span>
           </h2>
 
-          <p class="text-sm sm:text-base text-slate-600">
-            From 53-seater multi-axle air-suspension coaches to 7-seater Ottoman luxury SUVs, find the exact capacity for your trip.
+          <p class="text-sm sm:text-base text-slate-600 font-normal">
+            From 53-seater multi-axle air-suspension coaches to 17-seater Force Urbania Royales, find the exact capacity for your trip.
           </p>
         </div>
 
