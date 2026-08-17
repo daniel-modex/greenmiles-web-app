@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CinematicVideoHeroComponent } from './components/cinematic-video-hero/cinematic-video-hero.component';
 import { HeroEngineComponent } from './components/hero-engine/hero-engine.component';
 import { CuratedExperienceSliderComponent } from './components/curated-experience-slider/curated-experience-slider.component';
 import { ScrollBusShowcaseComponent } from './components/scroll-bus-showcase/scroll-bus-showcase.component';
@@ -10,6 +11,7 @@ import { TrustMetricsComponent } from './components/trust-metrics/trust-metrics.
 @Component({
   selector: 'app-home',
   imports: [
+    CinematicVideoHeroComponent,
     HeroEngineComponent,
     CuratedExperienceSliderComponent,
     ScrollBusShowcaseComponent,
@@ -20,7 +22,10 @@ import { TrustMetricsComponent } from './components/trust-metrics/trust-metrics.
   ],
   template: `
     <main class="w-full overflow-hidden bg-[#F2F2F2]">
-      <!-- 1. Full-Bleed Hero & Floating Dock Search -->
+      <!-- 0. Full-Bleed Snami-Style Cinematic Video Reel -->
+      <app-cinematic-video-hero></app-cinematic-video-hero>
+
+      <!-- 1. Bespoke Editorial Hero & Floating Search Engine Dock -->
       <app-hero-engine></app-hero-engine>
 
       <!-- 2. Snami-Style Curated Experience Slider (01 / 04) -->
@@ -44,4 +49,5 @@ import { TrustMetricsComponent } from './components/trust-metrics/trust-metrics.
   `,
 })
 export class HomeComponent {}
+
 
