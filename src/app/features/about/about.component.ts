@@ -18,7 +18,7 @@ import { BadgeComponent } from '../../shared/ui/badge/badge.component';
         <div class="glass-card rounded-3xl p-8 border border-[#6EBF49]/30 space-y-6">
           <div class="inline-flex items-center gap-2">
             <app-badge variant="mint" size="sm">
-              ✨ Remya Travels Legacy
+              ✨ Greenmiles Heritage
             </app-badge>
           </div>
 
@@ -27,7 +27,7 @@ import { BadgeComponent } from '../../shared/ui/badge/badge.component';
           </h1>
 
           <p class="text-sm sm:text-base text-slate-600 max-w-3xl leading-relaxed">
-            Greenmiles was born out of Remya Travels' decades of operational excellence in luxury coach rentals, pilgrimage circuits, and corporate logistics. We combine modern fleet engineering with warm hospitality.
+            Greenmiles is crafted by the Greenmiles team with decades of operational excellence in luxury coach rentals, pilgrimage circuits, and corporate logistics. We combine modern fleet engineering with warm hospitality.
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-slate-100">

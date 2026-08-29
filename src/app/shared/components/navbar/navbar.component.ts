@@ -14,7 +14,7 @@ import { ButtonComponent } from '../../ui/button/button.component';
         <a routerLink="/" class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#6EBF49] rounded-xl p-1">
           <div class="relative w-10 h-10 rounded-xl bg-gradient-to-br from-[#6EBF49] to-[#049DD9] p-0.5 shadow-md shadow-[#6EBF49]/20 group-hover:scale-105 transition-transform duration-300">
             <div class="w-full h-full bg-white rounded-[10px] flex items-center justify-center overflow-hidden">
-              <img src="/logo/logo.svg" alt="Greenmiles Logo" class="w-7 h-7 object-contain" />
+              <img src="logo/logo.svg" alt="Greenmiles Logo" class="w-7 h-7 object-contain" />
             </div>
           </div>
           
@@ -23,7 +23,7 @@ import { ButtonComponent } from '../../ui/button/button.component';
               GREENMILES<span class="text-[#6EBF49]">.</span>
             </span>
             <span class="text-[10px] font-semibold text-slate-500 tracking-wider uppercase -mt-1">
-              By Remya Travels
+              Eco-Luxury Mobility
             </span>
           </div>
         </a>

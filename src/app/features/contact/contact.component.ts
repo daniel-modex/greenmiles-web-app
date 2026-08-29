@@ -32,7 +32,7 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
                 <span class="text-xl">🏢</span>
                 <div>
                   <h4 class="font-bold text-[#0F1E13]">Headquarters (Kochi)</h4>
-                  <p class="text-xs text-slate-600">Remya Travels Complex, Vyttila Mobility Hub Road, Kochi, Kerala - 682019</p>
+                  <p class="text-xs text-slate-600">Greenmiles Mobility Hub, Vyttila Mobility Hub Road, Kochi, Kerala - 682019</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
                 <span class="text-xl">✉️</span>
                 <div>
                   <h4 class="font-bold text-[#0F1E13]">Email Concierge</h4>
-                  <p class="text-xs text-slate-600">bookings&#64;greenmiles.in / remya&#64;remyatravels.com</p>
+                  <p class="text-xs text-slate-600">bookings&#64;greenmiles.in / contact&#64;greenmiles.in</p>
                 </div>
               </div>
             </div>

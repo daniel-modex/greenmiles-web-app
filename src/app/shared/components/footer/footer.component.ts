@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
             <div class="flex items-center gap-3">
               <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#6EBF49] to-[#049DD9] p-0.5 shadow-md">
                 <div class="w-full h-full bg-[#0F1E13] rounded-[10px] flex items-center justify-center">
-                  <img src="/logo/logo.svg" alt="Greenmiles Logo" class="w-6 h-6 object-contain" />
+                  <img src="logo/logo.svg" alt="Greenmiles Logo" class="w-6 h-6 object-contain" />
                 </div>
               </div>
               <span class="text-2xl font-extrabold tracking-tight text-white">
@@ -166,7 +166,7 @@ import { FormsModule } from '@angular/forms';
 
         <!-- Bottom Bar -->
         <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© 2026 Greenmiles by Remya Travels. All Rights Reserved.</p>
+          <p>© 2026 Greenmiles. All Rights Reserved.</p>
           <div class="flex items-center gap-6">
             <a routerLink="/about" class="hover:text-white transition-colors">Privacy Policy</a>
             <a routerLink="/about" class="hover:text-white transition-colors">Terms of Rental</a>

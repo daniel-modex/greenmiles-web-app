@@ -21,7 +21,7 @@ import { BadgeComponent } from '../../../../shared/ui/badge/badge.component';
           <div class="inline-flex items-center gap-2">
             <app-badge variant="mint" size="md">
               <span class="w-2 h-2 rounded-full bg-[#6EBF49] animate-ping"></span>
-              Remya Travels Operational Excellence • 2026 Fleet
+              Greenmiles Operational Excellence • 2026 Fleet
             </app-badge>
           </div>
 

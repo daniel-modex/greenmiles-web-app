@@ -33,7 +33,7 @@ import { ButtonComponent } from '../../shared/ui/button/button.component';
           </h1>
 
           <p class="text-sm sm:text-base text-slate-600 max-w-3xl leading-relaxed">
-            Maintained to highest safety standards by Remya Travels. Featuring Volvo B11R 53-seaters, Scania 45-seaters, Force Urbania 17-seaters, VIP Tempo Travellers, and Innova Hycross SUVs.
+            Maintained to highest safety standards by the Greenmiles team. Featuring Volvo B11R 53-seaters, Scania 45-seaters, Force Urbania 17-seaters, VIP Tempo Travellers, and Innova Hycross SUVs.
           </p>
         </div>
 
